@@ -1,0 +1,368 @@
+html, body {
+  margin: 0;  /* let me get to the edge of the page galdarnitt!! */
+  /* font-family: "Raleway", "Alegreya Sans", sans-serif; */
+  /* font-family: 'Open Sans', sans-serif; */
+  /* background-color: #222;
+  color: #ddd; */
+  color: #3a609d;
+  background-color: #fff;
+}
+body * {
+  /* color: #ddd; */
+  color: #222;
+  /* color: #3a609d; */
+}
+
+/* define some width classes to make layout WAY more predictable and simple */
+.w12, .w11, .w10, .w9, .w8, .w7, .w6, .w5, .w4, .w3, .w2, .w1, .ws12, .ws6 {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  font-size: 0px;  /* prevents whitespace between child elements (e.g. for readable HTML) from adding width */
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  resize: none;
+}
+.w12 { width: 100%; }
+.w11 { width: 91.6%; }
+.w10 { width: 83.3%; }
+.w9 { width: 75%; }
+.w8 { width: 66.6%; }
+.w7 { width: 58.3%; }
+.w6 { width: 50%; }
+.w5 { width: 41.6%; }
+.w4 { width: 33.3%; }
+.w3 { width: 25%; }
+.w2 { width: 16.6%; }
+.w1 { width: 8.3%; }
+
+.pad12b { padding-bottom: 100%; }
+.pad11b { padding-bottom: 91.6%; }
+.pad10b { padding-bottom: 83.3%; }
+.pad9b { padding-bottom: 75%; }
+.pad8b { padding-bottom: 66.6%; }
+.pad7b { padding-bottom: 58.3%; }
+.pad6b { padding-bottom: 50%; }
+.pad5b { padding-bottom: 41.6%; }
+.pad4b { padding-bottom: 33.3%; }
+.pad3b { padding-bottom: 25%; }
+.pad2b { padding-bottom: 16.6%; }
+.pad1b { padding-bottom: 8.3%; }
+
+/* div, span, */
+.f0 { font-size: 0px; }
+.f1 { font-size: 12px; }
+.f2 { font-size: 16px; }
+a, p, li, span, button, label, input, td, th, h6, .f3 { font-size: 20px; }
+.f4 { font-size: 21px; }
+h5, .f5 { font-size: 22px; }
+h4, .f6 { font-size: 23px; }
+h3, .f7 { font-size: 24px; }
+h2, .f8 { font-size: 26px; }
+h1, .f9 { font-size: 32px; }
+.f10 { font-size: 36px; }
+.f11 { font-size: 40px; }
+.f12 { font-size: 60px; }
+.f-1 { font-size: initial; }
+
+/* classes that can take width precedence on small screens */
+@media screen and (max-width:1050px) {
+  .wm12 { width: 100%; }
+  .wm9 { width: 75%; }
+}
+@media screen and (max-width: 600px) {
+  .ws12-children > *,
+  .ws12 { width: 100%; }
+  .ws10 { width: 83.3%; }
+  .ws6 { width: 50%; }
+  .pads6b { padding-bottom: 50%; }
+  h5, .f5 { font-size: 21px; }
+  h4, .f6 { font-size: 22px; }
+  h3, .f7 { font-size: 23px; }
+  h2, .f8 { font-size: 24px; }
+  h1, .f9 { font-size: 26px; }
+}
+
+a,
+.clickable-1 {
+  cursor: pointer;
+  transition: .1s;
+}
+a:hover,
+.clickable-1:hover {
+  opacity: .75;
+}
+a, label, input {
+  display: inline-block;
+}
+.pad-5px {
+  padding: 5px;
+}
+td, th,
+.pad-10px-children > *,
+.pad-10px {
+  padding: 10px;
+}
+.pad-bottom-20px {
+  padding-bottom: 20px;
+}
+.pad-right-10px {
+  padding-right: 10px;
+}
+.pad-left-10px {
+  padding-left: 10px;
+}
+.pad-sides-10px-children > * {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.marg-bottom-10px {
+  margin-bottom: 10px;
+}
+.abs0000 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.abs1111 {
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+}
+.float-left { float: left; }
+.h100 {
+  height: 100%;
+}
+.text-right { text-align: right; }
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.o-flow-hide { overflow: hidden;}
+html * {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+table {
+  border-collapse: collapse;
+}
+td, th {
+  border: 1px solid;
+}
+.text-1 p > img {
+  width: 100%;
+}
+.text-2 a {
+  font-size: 24px;
+  text-decoration: none;
+}
+.text-2 a.current_page {
+  text-decoration: underline;
+}
+.text-2 a.current_page svg {
+  fill: #9c8868;
+  /* border-bottom-width: 2px; */
+  /* border-bottom-style: solid; */
+}
+.text-2 svg {
+  vertical-align: text-top;
+}
+.text-3 a,
+.text-3 p {
+  margin: 0;
+  font-size: 16px;
+}
+.text-4 p {
+  margin-top: 0;
+}
+a,
+a.text-4 {
+  text-decoration: none;
+}
+.text-5 h2 {
+  padding-left: 10px;
+}
+.text-5 h3 {
+  margin: 0;
+}
+.text-5 li {
+  background-color: #f5f3ef;
+}
+.border-top-1 {
+  border-top: 2px dashed #9c8868;
+}
+.pos-fix-top-1 {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+} body > div:first-of-type::before {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  padding-bottom: calc(20% + 48px); /* 20% is the ratio of the image, and 48px is the height of the nav */
+} @media screen and (max-width: 600px) {
+  body > div:first-of-type::before {
+    padding-bottom: calc(20%); /* 20% is the ratio of the image, and 48px is the height of the nav */
+  }
+}
+
+.pos-fix-bottom-1 {
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  min-height: 40px;
+  /* padding-top: 40px; */
+  /* height: 0; */
+} body::after {
+  /* content: ""; */
+  display: inline-block;
+  width: 100%;
+  height: 48px;
+}
+.pos-abs-right-top-0 {
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+.pos-abs-right-bottom-0 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.icon-1 {
+  height: 40px;
+  width: 40px;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: none;
+}
+.icon-1 > svg {
+  height: 100%;
+  width: 100%;
+}
+/* colors */
+.bg-color-0 {
+  /* background-color: #222; */
+  /* background-color: #ddd; */
+  background-color: #fff;
+}
+h1,
+h2,
+a,
+.color-1 {
+  /* color: #9f8f88; */
+  color: #3a609d;
+}
+.fill-1 svg {
+  fill: #9c8868;
+}
+.fill-2 svg {
+  fill: #3a609d;
+}
+.fill-2 svg {
+  border-color: #3a609d;
+}
+.display-none { display: none; }
+@media screen and (max-width:600px) {
+  .sm-display-block { display: block; }
+  .display-toggle:checked ~ .sm-check-display-none,
+  .sm-display-none { display: none; }
+  .display-toggle:checked + .sm-display-none { display: inline-block;}
+  .pad-bottom-sm-30px { padding-bottom: 30px; }
+}
+
+[data-page-url=''] > * > ul ul,
+[data-page-url=''] > * > ul,
+[data-page-url='letties-place'] > * > ul {
+  /* padding: 0px; */
+}
+[data-page-url=''] > * > ul > li li,
+[data-page-url=''] > * > ul > li,
+[data-page-url='letties-place'] > * > ul > li {
+  /* position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  font-size: 0px;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  resize: none; */
+  /* background-color: #333; */
+  /* background-color: #eee; */
+}
+[data-page-url='letties-place'] > * > ul > li {
+  /* width: 50%; */
+}
+[data-page-url=''] > * > ul > li {
+  /* width: 100%; */
+}
+[data-page-url=''] > * > ul > li img,
+[data-page-url='letties-place'] p > img {
+  /* width: 100%; */
+}
+[data-page-url=''] > * > ul > li li {
+  /* width: 50%; */
+}
+
+.hamburger {
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  left: 5px;
+  right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hamburger Line */
+.hamburger > div {
+  position: relative;
+  flex: none;
+  width: 100%;
+  height: 2px;
+  /* background: #fff; */
+  background: #9c8868;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.25s ease;
+}
+
+/* Hamburger Lines - Top & Bottom */
+.hamburger > div::before,
+.hamburger > div::after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  top: -10px;
+  width: 100%;
+  height: 2px;
+  background: inherit;
+}
+
+/* Moves Line Down */
+.hamburger > div::after {
+  top: 10px;
+}
+
+/* display-toggle Animation */
+.display-toggle:checked ~ label > .hamburger > div {
+  transform: rotate(45deg);  /* less aggresive spin than 135 */
+}
+
+/* Turns Lines Into X */
+.display-toggle:checked ~ label > .hamburger > div:before,
+.display-toggle:checked ~ label > .hamburger > div:after {
+  top: 0;
+  transform: rotate(90deg);
+}
