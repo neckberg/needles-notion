@@ -6,7 +6,7 @@ function controller_pages($page_folder, $is_last_controller) {
   $dir = implode('/', $page_folder);
   $found = (is_dir($dir)) ? true : false;
   if (!$found && !$is_last_controller) return false;
-  $content = html_content_from_file($dir, ['page-content']);
+  $content = html_content_from_file([$dir], ['page-content']);
   $page_atts = ($found) ? parse_json_file("$dir/page-atts") : [];
   $template = ($found) ? 'page' : 404;
   echo_page($content, $page_atts, $template);
@@ -33,8 +33,8 @@ function echo_page($content, $atts = [], $template = 'page') {
 }
 
 // generate content from whatever type of file we can find (md, php, or html)
-function html_content_from_file($dir, $filenames = [], $exts = ['md', 'php', 'html']) {
-  list($name, $ext) = get_best_file($dir, $filenames, $exts);
+function html_content_from_file($dirs = [], $filenames = [], $exts = ['md', 'php', 'html']) {
+  list($dir, $name, $ext) = get_best_file($dirs, $filenames, $exts);
   if (!$name) return false;
   $mk_content_func = "mk_content_from_$ext";
   return $mk_content_func("$dir/$name");
@@ -55,28 +55,35 @@ function mk_content_from_html($filepath) {
 }
 
 // search through hierarchy of filenames and extensions to find the best file available
-function get_best_image_url($dir, $img_names = [], $exts = ['jpg', 'jpeg', 'png', 'gif', 'svg', 'ico']) {
-  return get_best_file_url($dir, $img_names, $exts);
+function get_best_image_url($dirs = [], $img_names = [], $exts = ['jpg', 'jpeg', 'png', 'gif', 'svg', 'ico']) {
+  return get_best_file_url($dirs, $img_names, $exts);
 }
-function get_best_file_url($dir, $filenames = [], $exts = []) {
-  $filepath = get_best_file_path($dir, $filenames, $exts);
+function get_best_file_url($dirs = [], $filenames = [], $exts = []) {
+  $filepath = get_best_file_path($dirs, $filenames, $exts);
   if (!$filepath) return false;
   return full_url($filepath);
 }
-function get_best_file_path($dir, $filenames = [], $exts = []) {
-  list($name, $ext) = get_best_file($dir, $filenames, $exts);
+function get_best_file_path($dirs = [], $filenames = [], $exts = []) {
+  list($dir, $name, $ext) = get_best_file($dirs, $filenames, $exts);
   if (!$name) return false;
   return "$dir/$name.$ext";
 }
-function get_best_file($dir, $filenames = [], $exts = []) {
-  if (!is_dir($dir)) return [false, false];
-  foreach ($filenames as $name) {
-    foreach ($exts as $ext) {
-      $path = "$dir/$name.$ext";
-      if (file_exists($path)) return [$name, $ext];
+function get_best_file($dirs = [], $filenames = [], $exts = []) {
+  if (count($dirs) < 1) $dirs = [''];
+  // error_log(print_r($dirs, true));
+  // error_log(print_r($filenames, true));
+  // error_log(print_r($exts, true));
+  foreach ($dirs as $dir) {
+    if (!empty($dir) && !is_dir($dir)) continue;
+    foreach ($filenames as $name) {
+      foreach ($exts as $ext) {
+        $path = $dir . (($dir == '') ? '' : '/') . "$name.$ext";
+        // error_log($path);
+        if (file_exists($path)) return [$dir, $name, $ext];
+      }
     }
   }
-  return [false, false];
+  return [false, false, false];
 }
 function sandbox_include($file) {
   ob_start();
