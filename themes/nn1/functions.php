@@ -55,7 +55,7 @@ function mk_content_from_html($filepath) {
 }
 
 // search through hierarchy of filenames and extensions to find the best file available
-function get_best_image_url($dirs = [], $img_names = [], $exts = ['jpg', 'jpeg', 'png', 'gif', 'svg', 'ico']) {
+function get_best_image_url($dirs = [], $img_names = [], $exts = ['JPG', 'jpg', 'jpeg', 'png', 'gif', 'svg', 'ico']) {
   return get_best_file_url($dirs, $img_names, $exts);
 }
 function get_best_file_url($dirs = [], $filenames = [], $exts = []) {
