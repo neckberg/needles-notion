@@ -13,10 +13,9 @@ global $page_atts;
   <meta name="Keywords" content="<?php echo nn1_page_keywords($page_atts); ?>">
   <!-- <meta name="Description" content=""> -->
 
+  <link rel="icon" type="image/png" href="<?php echo full_url('images/favicon/favicon-16x16.png'); ?>" sizes="16x16" />
+  <link rel="icon" type="image/png" href="<?php echo full_url('images/favicon/favicon-32x32.png'); ?>" sizes="32x32" />
 
-  <!-- <link rel="icon" type="image/png" href="media/icons/sdBioCleanSunIcon16.png" sizes="16x16" /> -->
-  <!-- <link rel="icon" type="image/png" href="media/icons/sdBioCleanSunIcon32.png" sizes="32x32" /> -->
-  <!-- <style> --><!-- </style> -->
   <link rel="stylesheet" type="text/css" href="<?php echo theme_file_url('style.css') . '?' . time(); ?>">
   <?php echo nn1_add_styles($page_atts); ?>
 </head>
