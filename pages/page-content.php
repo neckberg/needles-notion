@@ -9,7 +9,7 @@ include_once(theme_path() . '/designs.php');
 <li class="w12 marg-bottom-10px">
   <h2>Just Released</h2>
   <a href="<?php echo full_url('designs/mrs-santas-sampler'); ?>" class="w6 float-left pad-right-10px">
-    <img class="w12" alt="Mrs. Santa's Sampler" src="<?php echo full_url('designs/mrs-santas-sampler/image.jpg'); ?>">
+    <img class="w12" alt="Mrs. Santa's Sampler" src="<?php echo url_design_image('mrs-santas-sampler'); ?>">
   </a>
   <div class="w6">
     <a href="<?php echo full_url('designs/mrs-santas-sampler'); ?>" class="w12">
@@ -22,7 +22,7 @@ include_once(theme_path() . '/designs.php');
 <li class="w12 marg-bottom-10px">
   <h2>A Needle's Notion Favorite</h2>
   <a href="<?php echo full_url('designs/sampler-santa'); ?>" class="w6 float-left pad-right-10px">
-    <img class="w12" alt="Sampler Santa" src="<?php echo full_url('designs/sampler-santa/image.jpg'); ?>">
+    <img class="w12" alt="Sampler Santa" src="<?php echo url_design_image('sampler-santa'); ?>">
   </a>
   <div class="w6">
     <a href="<?php echo full_url('designs/sampler-santa'); ?>" class="w12">
@@ -35,7 +35,7 @@ include_once(theme_path() . '/designs.php');
 <li class="w12 marg-bottom-10px">
   <h2>A Needle's Notion Best Seller</h2>
   <a href="<?php echo full_url('designs/bewitching-trio'); ?>" class="w6 float-left pad-right-10px">
-    <img class="w12" alt="Bewitching Trio" src="<?php echo full_url('designs/bewitching-trio/image.jpg'); ?>">
+    <img class="w12" alt="Bewitching Trio" src="<?php echo url_design_image('bewitching-trio'); ?>">
   </a>
   <div class="w6">
     <a href="<?php echo full_url('designs/bewitching-trio'); ?>" class="w12">

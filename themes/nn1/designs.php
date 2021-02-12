@@ -12,7 +12,7 @@ function echo_thumb_link($img_src, $href, $label) {
 }
 function echo_design_thumb($design_slug) {
   $design = parse_json_file("designs/$design_slug/data");
-  $img_src = get_best_image_url(arr_dirs_w_design_imgs($design_slug), arr_design_thumb_paths($design_slug));
+  $img_src = url_design_image($design_slug, 'thumb');
   $href = full_url("designs/$design_slug");
   $label = $design['name'];
   echo_thumb_link($img_src, $href, $label);
@@ -37,7 +37,7 @@ function html_design_content($design_slug, $design_atts) {
 
   ob_start();
   ?>
-    <img  class="<?php echo $class ?>" src="<?php echo get_best_image_url(arr_dirs_w_design_imgs($design_slug), arr_design_image_paths($design_slug)); ?>"></img>
+    <img class="<?php echo $class ?>" src="<?php echo url_design_image($design_slug, 'full'); ?>"></img>
     <?php if (!empty($description)) { ?>
     <div class="<?php echo $class ?>">
       <?php echo $description; ?>
@@ -49,6 +49,10 @@ function html_design_content($design_slug, $design_atts) {
   ob_end_clean();
 
   return $html;
+}
+function url_design_image ($design_slug, $img_size = 'full') {
+  $path_hierarchy = ($img_size == 'thumb') ? arr_design_thumb_paths($design_slug) : arr_design_image_paths($design_slug);
+  return get_best_image_url(arr_dirs_w_design_imgs($design_slug), $path_hierarchy);
 }
 function arr_dirs_w_design_imgs ($design_slug) {
   // error_log('arr_dirs_w_design_imgs');
