@@ -5,7 +5,7 @@ Options All -Indexes
 # whitelist access for certain extensions, plus index.php, and anything without a dot
 Order deny,allow
 Deny from all
-<Files ~ "(\.(css|js|png|jpg|svg|pdf)$|^((?!\.).)*$|index.php$)">
+<Files ~ "(\.(css|js|png|jpg|JPG|svg|pdf)$|^((?!\.).)*$|index.php$)">
   Allow from all
 </Files>
 
