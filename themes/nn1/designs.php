@@ -68,9 +68,9 @@ function arr_design_image_paths ($design_slug) {
   $id = $design['id'];
   $filename_root = "NN$id";
   return [
-    // $filename_root . 'b',
-    $filename_root . 'b2',
     $filename_root . 'a',
+    $filename_root . 'b',
+    $filename_root . 'b2',
     $filename_root,
     $filename_root . 'tn',
     $filename_root . 'tni',
