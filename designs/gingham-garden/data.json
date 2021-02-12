@@ -1,6 +1,7 @@
 {
   "id": 152,
   "name": "Gingham Garden",
+  "visibility": "hidden",
   "categories": [
     "Cross Stitch"
   ]

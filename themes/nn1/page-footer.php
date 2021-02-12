@@ -1,9 +1,7 @@
 
 <div class="w12 text-center text-3 pad-10px border-top-1">
-  <p>Lettie Eckberg</p>
-  <p>2920 Cassidy Dr NE</p>
-  <p>Rochester, MN 55906</p>
-  <p><a href=mailto:Lettie.Eckberg@icloud.com>Lettie.Eckberg@icloud.com</a></p>
+  <img style="height:6rem; margin-bottom:1rem;" src="<?php echo full_url('images/NN-logo-needle-guy.svg'); ?>"/>
+  <p><a style="color:#000;" href=mailto:Lettie.Eckberg@icloud.com>Lettie.Eckberg@icloud.com</a></p>
 </div>
 
 <footer class="pos-fix-bottom-1 bg-color-0 border-top-1">

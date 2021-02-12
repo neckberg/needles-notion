@@ -1,6 +1,7 @@
 {
   "id": 121,
   "name": "Petite Purses",
+  "visibility": "hidden",
   "categories": [
     "Cross Stitch"
   ]

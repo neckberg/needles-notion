@@ -4,10 +4,8 @@ Here is a helpful [Shop Locator](http://hoffmandis.com/ShopLocator)
 
 If you can't find the design you're looking for, e-mail [Lettie.Eckberg@icloud.com](mailto:Lettie.Eckberg@icloud.com) for ordering information.
 
+Email me if you would like to be notified whenever my new designs are released, and I'll add you to my mailing list.
+
 Thank you,
 
 *Lettie Eckberg*
-
-I had a fun anniversary trip to Germany, France, and England with my husband. I'm planning to include some European inspirations in several of my future designs. Here I am in Germany with a friendly antiques dealer displaying some vintage embroidered towels.
-
-![Germany](pages/stitchers/IMG_3234_Germany.jpg "Germany")

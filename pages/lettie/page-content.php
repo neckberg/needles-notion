@@ -91,4 +91,4 @@
 
 Here I'm cutting out projects to sew for the Northwoods Boutique craft show in Minnesota. I finally convinced my cat, Sprinkles, not to sit on top of my fabric.
 
-<img class="w12" alt="Cat Sprinkles helping Lettie" src="<?php echo full_url('pages/lettie/Lettie_NW_Boutiue_img_1246.jpg'); ?> ">
+<!-- <img class="w12" alt="Cat Sprinkles helping Lettie" src="<?php echo full_url('pages/lettie/Lettie_NW_Boutiue_img_1246.jpg'); ?> "> -->

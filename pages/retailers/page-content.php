@@ -13,16 +13,15 @@
 </li>
 
 <li class="w12 marg-bottom-10px pad-10px">
-  <h3>Charted Needlepoint</h3>
-  <p>For information on purchasing my Needlepoint designs, please contact The Needle's Notion directly by emailing <a href="mailto:Lettie.Eckberg@icloud.com">Lettie.Eckberg@icloud.com</a></p>
-</li>
-
-<li class="w12 marg-bottom-10px pad-10px">
-  <h3>Painted Canvas</h3>
-  <p>Several Needle's Notion samplers are also now available as painted canvases for needlepoint, offered by <a href="http://www.eweandeyeandfriends.com/html/thumbnails.php?artistSearch=Lettie+Eckberg">Ewe and Eye and Friends</a></p>
+  <img class="w2" alt="Baking Day" src="<?php echo full_url('designs/baking-day/NN154pc_EWE-332.jpg'); ?>">
+  <div class="w10 pad-left-10px">
+    <h3>Painted Canvas</h3>
+    <p>Several Needle's Notion samplers are also now available as painted canvases for needlepoint, offered by <a href="http://www.eweandeyeandfriends.com/html/thumbnails.php?artistSearch=Lettie+Eckberg">Ewe and Eye and Friends</a></p>
+    <!-- <img class="w2" alt="Baking Day" src="<?php echo full_url('designs/baking-day/NN154pc_EWE-332.jpg'); ?>"> -->
+  </div>
 </li>
 
 </ul>
 
-<p>Let me know if you would like to be notified as my new designs become available. I would also be happy to set up a personalized trunk show for your shop. Just tell me how I can help you, and I'll be glad to do so.</p>
+<p>Let me know if you would like to be notified as my new designs become available. Just tell me how I can help you, and I'll be glad to do so.</p>
 <p><em>Lettie Eckberg</em></p>

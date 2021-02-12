@@ -52,7 +52,7 @@ include_once(theme_path() . '/designs.php');
 <li class="w12 marg-bottom-10px">
   <img class="w2" alt="Baking Day" src="<?php echo full_url('designs/baking-day/NN154pc_EWE-332.jpg'); ?>">
   <div class="w10 pad-left-10px">
-    <h3>Painted Canvas for Needlepoint</h3>
+    <h3>Oldies but Goodies</h3>
     <p>Several Needle's Notion samplers are also available as painted canvases for needlepoint, offered by Ewe and Eye and Friends.</p>
   </div>
 </li>

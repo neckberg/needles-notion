@@ -9,4 +9,4 @@ Sampler Stitch Count: 140 wide x 112 high.
 Finished size of pin keep and needle book: 5½ x 4½ inches and 3¼ x 3¼ inches.
 
 ## Finishing Tips
-Here are finishing tips for the [Sampler](http://localhost:8888/Folder/needles-notion/designs/jane-and-cassandra/sampler.jpg), the [Needle book](http://localhost:8888/Folder/needles-notion/designs/jane-and-cassandra/needle-book.jpg), and [Pin Keep Gathered Ribbon](http://localhost:8888/Folder/needles-notion/designs/jane-and-cassandra/ribbon.jpg).
+Here are finishing tips for the [Sampler](sampler.jpg), the [Needle book](needle-book.jpg), and [Pin Keep Gathered Ribbon](ribbon.jpg).

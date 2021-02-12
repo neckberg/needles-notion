@@ -1,6 +1,7 @@
 {
   "id": 140,
   "name": "Come to the Fair",
+  "visibility": "hidden",
   "categories": [
     "Cross Stitch"
   ]

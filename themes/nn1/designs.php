@@ -12,6 +12,8 @@ function echo_thumb_link($img_src, $href, $label) {
 }
 function echo_design_thumb($design_slug) {
   $design = parse_json_file("designs/$design_slug/data");
+  $visibility = $design['visibility'];
+  if ($visibility == 'hidden') return;
   $img_src = url_design_image($design_slug, 'thumb');
   $href = full_url("designs/$design_slug");
   $label = $design['name'];

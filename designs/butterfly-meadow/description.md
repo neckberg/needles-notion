@@ -11,4 +11,4 @@ Pin cushion finished size: 4 ½ x 4 ½ inches
 Needlebook finished size: 6 ¾ x 5 ¼ inches
 
 ## Finishing Tips
-Here are finishing tips with photos for the [Pin Cushion](http://localhost:8888/Folder/needles-notion/designs/butterfly-meadow/pin-cushion.jpg) and [Needlebook](http://localhost:8888/Folder/needles-notion/designs/butterfly-meadow/needlebook.jpg).
+Here are finishing tips with photos for the [Pin Cushion](pin-cushion.jpg) and [Needlebook](needlebook.jpg).
