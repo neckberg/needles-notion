@@ -12,6 +12,3 @@ Finished Size: 11 ½ inches tall
 - DMC floss: 311, 352, 647, 844, 945, 975, 3852 and White (two skeins)
 - Gentle Art Threads: Cranberry (five skeins), Bayberry and Shutter Green
 Additional craft supplies for finishing Sampler Santa are listed on the chart.
-
-## Finishing Tips
-Here is a photo showing the side and back views of Sampler Santa and Mrs. Santa.
