@@ -5,90 +5,115 @@
 <p>I hope you find enjoyment in recreating my fanciful designs!</p>
 <p><em>Lettie Eckberg</em></p>
 
-<!-- <h2>Publications</h2> -->
-<!-- <ul class="w12 text-5"> -->
-<!-- <li class="w6 marg-bottom-10px">
-  <img class="w6" alt="Mrs. Santa's Sampler" src="http://www.needlesnotion.com/Calico%20Flowers%20tn%20_IMG_4294">
-  <div class="w6 pad-left-10px">
+<h2>Publications</h2>
+<ul class="w12 text-5">
+<li class="w12 marg-bottom-10px">
+  <div style="float:left; width:40%;" class="pad-left-10px">
     <h3>Calico Flowers</h3>
     <p>Summer 2018</p>
     <p>Primitive Quilts and Projects magazine</p>
   </div>
-</li> -->
+  <img style="float:left; max-width: 25%;" src="http://www.needlesnotion.com/Calico%20Flowers%20tn%20_IMG_4294">
+</li>
 
-<!-- <li class="w6 marg-bottom-10px">
-  <img class="w6" alt="Mrs. Santa's Sampler" src="http://www.needlesnotion.com/Images/NNmag15xb">
-  <div class="w6 pad-left-10px">
+<li class="w12 marg-bottom-10px">
+  <div style="float:left; width:40%;" class="pad-left-10px">
     <h3>How Does Your Garden Grow?</h3>
     <p>The Cover Design - May / June 2013</p>
     <p>Create and Decorate magazine</p>
   </div>
-</li> -->
+  <img style="float:left; max-width: 25%;" src="<?php echo full_url('images/designs/NNmag15xb'); ?>">
+</li>
 
-<!-- <li class="w6 marg-bottom-10px">
-  <img class="w6" alt="Mrs. Santa's Sampler" src="http://www.needlesnotion.com/Images/NNmag14yb.jpg">
-  <img class="w6" alt="Mrs. Santa's Sampler" src="http://www.needlesnotion.com/Images/NNmag14xb.jpg">
-  <div class="w12 pad-left-10px">
+<li class="w12 marg-bottom-10px">
+  <div style="float:left; width:40%;" class="pad-left-10px">
     <h3>Sheep in the Meadow</h3>
     <p>July / August 2012</p>
     <p>Create and Decorate magazine</p>
   </div>
-</li> -->
+  <img style="float:left; max-width: 25%;" src="<?php echo full_url('images/designs/NNmag14yb.jpg'); ?>">
+  <img style="float:left; max-width: 25%;" src="<?php echo full_url('images/designs/NNmag14xb.jpg'); ?>">
+</li>
 
-<!-- <li class="w6 marg-bottom-10px">
-  <img class="w6" alt="Mrs. Santa's Sampler" src="http://www.needlesnotion.com/Images/Ribbon%20Work%20Basket%20c.JPG">
-  <img class="w6" alt="Mrs. Santa's Sampler" src="http://www.needlesnotion.com/Images/CraftNthings%20APR%202011%20cvr.jpg">
-  <div class="w12 pad-left-10px">
+<li class="w12 marg-bottom-10px">
+  <div style="float:left; width:40%;" class="pad-left-10px">
     <h3>Ribbonwork Basket</h3>
     <p>April 2011 Crafts 'n things</p>
   </div>
-</li> -->
+  <img style="float:left; max-width: 25%;" src="<?php echo full_url('images/designs/Ribbon%20Work%20Basket%20c.jpg'); ?>">
+  <img style="float:left; max-width: 25%;" src="<?php echo full_url('images/designs/CraftNthings%20APR%202011%20cvr.jpg'); ?>">
+</li>
 
-
-<!-- <li class="w6 marg-bottom-10px">
-  <img class="w6" alt="Mrs. Santa's Sampler" src="http://www.needlesnotion.com/Images/Ribbon%20Work%20Basket%20c.JPG">
-  <img class="w6" alt="Mrs. Santa's Sampler" src="http://www.needlesnotion.com/Images/CraftNthings%20APR%202011%20cvr.jpg">
-  <div class="w12 pad-left-10px">
-    <h3>Ribbonwork Basket</h3>
-    <p>April 2011 Crafts 'n things</p>
+<li class="w12 marg-bottom-10px">
+  <div style="float:left; width:40%;" class="pad-left-10px">
+    <h3>O Holy Night ornament</h3>
+    <p>November 2010 The Gift of Stitching</p>
   </div>
-</li> -->
+  <img style="float:left; max-width: 25%;" src="<?php echo full_url('images/designs/GoS%20o%20holy%20night%20ornament.jpg'); ?>">
+  <img style="float:left; max-width: 25%;" src="<?php echo full_url('images/designs/GoS%20NOV%202010%20b.jpg'); ?>">
+</li>
 
-<!-- </ul> -->
+<li class="w12 marg-bottom-10px">
+  <div style="float:left; width:40%;" class="pad-left-10px">
+    <h3>Bunting and Star Pillows</h3>
+    <p>August 2010</p>
+    <p>Create and Decorate</p>
+  </div>
+  <img style="float:left; max-width: 25%;" src="<?php echo full_url('images/designs/NNmag11yb2tn'); ?>">
+  <img style="float:left; max-width: 25%;" src="<?php echo full_url('images/designs/NNmag11xb.jpg'); ?>">
+</li>
+
+<li class="w12 marg-bottom-10px">
+  <div style="float:left; width:40%;" class="pad-left-10px">
+    <h3>Folk Art Flowers Coin Purse Kit</h3>
+    <p>July 2010 The Gift of Stitching</p>
+  </div>
+  <img style="float:left; max-width: 25%;" src="<?php echo full_url('images/designs/GoS%20%20folk%20art%20coin%20purse.jpg'); ?>">
+  <img style="float:left; max-width: 25%;" src="<?php echo full_url('images/designs/GoS%20July%202010%20b.jpg'); ?>">
+</li>
 
 
-- O Holy Night ornament
+<li class="w12 marg-bottom-10px">
+  <div style="float:left; width:40%;" class="pad-left-10px">
+    <h3>March/April 2010 Needlework Retailer</h3>
+    <p>Carrot Cake</p>
+    <p>The Cover Design</p>
+  </div>
+  <img style="float:left; max-width: 25%;" src="<?php echo full_url('images/designs/NNmag10tn'); ?>">
+  <img style="float:left; max-width: 25%;" src="<?php echo full_url('images/designs/NNmag10c.jpg'); ?>">
+</li>
 
-    November 2010 The Gift of Stitching
 
-- Bunting and Star Pillows
+<li class="w12 marg-bottom-10px">
+  <div style="float:left; width:40%;" class="pad-left-10px">
+    <h3>Tea Cozy Ornaments</h3>
+    <p>A Cross Stitch Christmas Book 2009</p>
+  </div>
+  <img style="float:left; max-width: 25%;" src="<?php echo full_url('images/designs/NNmag9ybtn'); ?>">
+  <img style="float:left; max-width: 25%;" src="<?php echo full_url('images/designs/NNmag9xb.jpg'); ?>">
+</li>
 
-    August 2010
 
-    Create and Decorate
 
-- Folk Art Flowers Coin Purse Kit
 
-    July 2010 The Gift of Stitching
+<li class="w12 marg-bottom-10px">
+  <div style="float:left; width:40%;" class="pad-left-10px">
+    <h3>Picnic Sampler</h3>
+    <p>July 2009 Cross-Stitch & Needlework</p>
+  </div>
+  <img style="float:left; max-width: 25%;" src="<?php echo full_url('images/designs/NNmag8ytn'); ?>">
+  <img style="float:left; max-width: 25%;" src="<?php echo full_url('images/designs/NNmag8xb.jpg'); ?>">
+</li>
 
-- March/April 2010 Needlework Retailer
 
-    Carrot Cake
 
-    The Cover Design
+<li class="w12 marg-bottom-10px">
+  <div style="float:left; width:40%;" class="pad-left-10px">
+    <h3>Folk Art Fantasy Table Topper</h3>
+    <p>June 2009 The Cross Stitcher</p>
+  </div>
+  <img style="float:left; max-width: 25%;" src="<?php echo full_url('images/designs/NNmag7ybtn'); ?>">
+  <img style="float:left; max-width: 25%;" src="<?php echo full_url('images/designs/NNmag7xb.jpg'); ?>">
+</li>
 
-- Tea Cozy Ornaments
-
-    A Cross Stitch Christmas Book 2009
-
-- Picnic Sampler
-
-    July 2009 Cross-Stitch & Needlework
-
-- Folk Art Fantasy Table Topper
-
-    June 2009 The Cross Stitcher
-
-Here I'm cutting out projects to sew for the Northwoods Boutique craft show in Minnesota. I finally convinced my cat, Sprinkles, not to sit on top of my fabric.
-
-<!-- <img class="w12" alt="Cat Sprinkles helping Lettie" src="<?php echo full_url('pages/lettie/Lettie_NW_Boutiue_img_1246.jpg'); ?> "> -->
+</ul>
