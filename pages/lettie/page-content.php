@@ -13,7 +13,7 @@
     <p>Summer 2018</p>
     <p>Primitive Quilts and Projects magazine</p>
   </div>
-  <img style="float:left; max-width: 25%;" src="http://www.needlesnotion.com/Calico%20Flowers%20tn%20_IMG_4294">
+  <img style="float:left; max-width: 25%;" src="<?php echo full_url('images/designs/Calico Flowers tn _IMG_4294.JPG'); ?>">
 </li>
 
 <li class="w12 marg-bottom-10px">
