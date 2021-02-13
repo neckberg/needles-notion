@@ -13,4 +13,5 @@ Stitch Count: 171 wide x 168 high and 169 wide x 150 high
 Additional craft supplies for finishing Flossy's Garden are listed on the chart.
 
 ## Finishing Tips:
-Here are photos showing side and back views of Flossy, as well as her accessories.
+Here are photos showing side and back views of Flossy, as well as her accessories:
+[Finishing Tip Photos](finishing-tips)
