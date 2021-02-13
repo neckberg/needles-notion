@@ -13,7 +13,7 @@
 </li>
 
 <li class="w12 marg-bottom-10px pad-10px">
-  <img class="w2" alt="Baking Day" src="<?php echo full_url('designs/baking-day/NN154pc_EWE-332.jpg'); ?>">
+  <img class="w2" alt="Baking Day" src="<?php echo full_url('images/designs/NN154pc_EWE-332.jpg'); ?>">
   <div class="w10 pad-left-10px">
     <h3>Painted Canvas</h3>
     <p>Several Needle's Notion samplers are also now available as painted canvases for needlepoint, offered by <a href="http://www.eweandeyeandfriends.com/html/thumbnails.php?artistSearch=Lettie+Eckberg">Ewe and Eye and Friends</a></p>
