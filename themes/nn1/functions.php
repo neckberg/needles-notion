@@ -6,30 +6,44 @@ function controller_pages($page_folder, $is_last_controller) {
   $dir = implode('/', $page_folder);
   $found = (is_dir($dir)) ? true : false;
   if (!$found && !$is_last_controller) return false;
-  $content = html_content_from_file([$dir], ['page-content']);
-  $page_atts = ($found) ? parse_json_file("$dir/page-atts") : [];
-  $template = ($found) ? 'page' : 404;
-  echo_page($content, $page_atts, $template);
+  echo_folder_as_page($dir, $found);
   return true;
 }
-function controller_designs($url_pieces, $is_last_controller, $design) {
-  if (count($design) > 1) return false;
-  $design_slug = $design[0];
-  if (!is_dir("designs/$design_slug")) return false;
+function controller_designs($url_pieces, $is_last_controller, $design_url_pieces) {
+  if (count($design_url_pieces) > 2) return false;  // allow for 1 level of subpages
+  $design_slug = $design_url_pieces[0];
+  if (!is_dir("designs/$design_slug")) return false;  // no such design
   include_theme_file('designs.php');
-  echo_design_page($design_slug);
+  if (count($design_url_pieces) == 1) {  // not asking for a sub-page: show the design!
+    echo_design_page($design_slug);
+    return true;
+  }
+  $subpage_slug = $design_url_pieces[1];
+  $subpage_dir = "designs/$design_slug/$subpage_slug";
+  if (!is_dir($subpage_dir)) {  // sub-page doesn't exist: just return the design page
+    echo_design_page($design_slug);
+    return true;
+  }
+  echo_folder_as_page($subpage_dir);
   return true;
 }
 function controller_404() {
   echo_page('', [], 404);
 }
 
-// echo a page with spedivied content, attributes, and template
+// echo a page with speified content, attributes, and template
 function echo_page($content, $atts = [], $template = 'page') {
   global $page_atts;
   $page_atts = $atts;
   $page_atts['page_content'] = $content;
   include_theme_file("$template.php");  // show the page!
+}
+
+function echo_folder_as_page ($dir, $found = true) {
+  $content = html_content_from_file([$dir], ['page-content']);
+  $page_atts = ($found) ? parse_json_file("$dir/page-atts") : [];
+  $template = ($found) ? 'page' : 404;
+  echo_page($content, $page_atts, $template);
 }
 
 // generate content from whatever type of file we can find (md, php, or html)
@@ -70,15 +84,11 @@ function get_best_file_path($dirs = [], $filenames = [], $exts = []) {
 }
 function get_best_file($dirs = [], $filenames = [], $exts = []) {
   if (count($dirs) < 1) $dirs = [''];
-  // error_log(print_r($dirs, true));
-  // error_log(print_r($filenames, true));
-  // error_log(print_r($exts, true));
   foreach ($dirs as $dir) {
     if (!empty($dir) && !is_dir($dir)) continue;
     foreach ($filenames as $name) {
       foreach ($exts as $ext) {
         $path = $dir . (($dir == '') ? '' : '/') . "$name.$ext";
-        // error_log($path);
         if (file_exists($path)) return [$dir, $name, $ext];
       }
     }

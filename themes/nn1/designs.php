@@ -12,7 +12,7 @@ function echo_thumb_link($img_src, $href, $label) {
 }
 function echo_design_thumb($design_slug) {
   $design = parse_json_file("designs/$design_slug/data");
-  $visibility = $design['visibility'];
+  $visibility = (isset($design['visibility'])) ? $design['visibility'] : 'visible';
   if ($visibility == 'hidden') return;
   $img_src = url_design_image($design_slug, 'thumb');
   $href = full_url("designs/$design_slug");
@@ -57,7 +57,6 @@ function url_design_image ($design_slug, $img_size = 'full') {
   return get_best_image_url(arr_dirs_w_design_imgs($design_slug), $path_hierarchy);
 }
 function arr_dirs_w_design_imgs ($design_slug) {
-  // error_log('arr_dirs_w_design_imgs');
   return [
     // "designs/$design_slug",
     "images/designs",

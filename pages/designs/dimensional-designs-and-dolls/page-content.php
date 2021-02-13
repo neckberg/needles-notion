@@ -2,6 +2,7 @@
 include_theme_file('designs.php');
 
 $design_list = [
+  'flossys-garden',
   'mrs-santas-sampler',
   'woodland-yule',
   'a-fine-pair',
