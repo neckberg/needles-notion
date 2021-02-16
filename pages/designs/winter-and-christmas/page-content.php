@@ -19,11 +19,13 @@ $design_list = [
   'santas-greenhouse',
   'christmas-garden',
   'santas-rudolph-racer',
-  'st-nick-of-time',
+  // 'st-nick-of-time',  // retired
   'gingerbread-cottage',
   'gingerbread-rogers',
   'freddie-allspice',
   'alphabet-on-ice',
+  'whiskers',
+  'bargello-trees',
   'snowflake-angels',
 ];
 

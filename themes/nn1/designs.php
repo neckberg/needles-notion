@@ -28,6 +28,29 @@ function echo_design_page($design_slug) {
   $page_atts['page_content'] = html_design_content($design_slug, $design_atts);
   include_theme_file('page.php');  // show the page!
 }
+function echo_home_featured_design_article ($design_slug, $header = '') {
+  error_log('echo_home_featured_design_article');
+  $design_atts = parse_json_file("designs/$design_slug/data");
+  if (empty($design_atts)) return;
+  if (!isset($design_atts['name'])) return;
+  $name = $design_atts['name'];
+  ?>
+  <article class="w12 marg-bottom-10px">
+    <?php
+    if (!empty($header)) echo "<h2>$header</h2>";
+    ?>
+    <a href="<?php echo full_url("designs/$design_slug"); ?>" class="w6 float-left pad-right-10px">
+      <img class="w12" alt="<?php echo $name; ?>" src="<?php echo url_design_image($design_slug); ?>">
+    </a>
+    <div class="w6">
+      <a href="<?php echo full_url("designs/$design_slug"); ?>" class="w12">
+        <h3><?php echo $name; ?></h3>
+      </a>
+    </div>
+    <?php echo html_design_description($design_slug); ?>
+  </article>
+  <?php
+}
 function html_design_description($design_slug, $prefer_full = false) {
   $file_order = ($prefer_full) ? ['description-full', 'description'] : ['description', 'description-full'];
   return html_content_from_file(["designs/$design_slug"], $file_order);
@@ -73,6 +96,7 @@ function arr_design_image_paths ($design_slug) {
     $filename_root . 'b',
     $filename_root . 'b2',
     $filename_root,
+    $filename_root . 'tn2',
     $filename_root . 'tn',
     $filename_root . 'tni',
     $filename_root . 'tng3',
@@ -94,7 +118,7 @@ function arr_design_thumb_paths ($design_slug) {
   $id = $design['id'];
   $filename_root = "NN$id";
   return [
-    $filename_root . 'tn',
+    $filename_root . 'tn2',
     $filename_root . 'tni',
     $filename_root . 'tng3',
     $filename_root . 'ns',

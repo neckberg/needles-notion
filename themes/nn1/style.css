@@ -189,6 +189,7 @@ a.text-4 {
 .text-5 h3 {
   margin: 0;
 }
+.text-5 article,
 .text-5 li {
   background-color: #f5f3ef;
 }

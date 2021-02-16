@@ -6,15 +6,15 @@ $design_list = [
   'fly-by-night',
   'bewitching-trio',
   'cauldron-cottage',
-  'owl-be-watching',
   'bats-in-the-belfry',
-  'jack-patch',
+  'spook-hill',
   'knit-witch',
   'witch-hazels-brew',
   'autumn-leaves',
   'pumpkin-hollow',
   'halloween-harvest',
-  'spook-hill',
+  'jack-patch',
+  // 'owl-be-watching',  // retired
 ];
 
 foreach ($design_list as $design_slug) echo_design_thumb($design_slug);
