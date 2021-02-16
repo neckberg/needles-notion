@@ -99,7 +99,8 @@ function arr_design_image_paths ($design_slug) {
     $filename_root . 'tn2',
     $filename_root . 'tn',
     $filename_root . 'tni',
-    $filename_root . 'tng3',
+    $filename_root . 'tng',
+    $filename_root . 'tng3'
     $filename_root . 'ns',
     $filename_root . 'i',
     $filename_root . ' Cover',
@@ -119,7 +120,9 @@ function arr_design_thumb_paths ($design_slug) {
   $filename_root = "NN$id";
   return [
     $filename_root . 'tn2',
+    $filename_root . 'tn',
     $filename_root . 'tni',
+    $filename_root . 'tng',
     $filename_root . 'tng3',
     $filename_root . 'ns',
     $filename_root . 'i',
