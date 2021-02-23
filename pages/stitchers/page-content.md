@@ -10,4 +10,4 @@ Thank you,
 
 *Lettie Eckberg*
 
-![Lettie with Patterns](images/NN_Lettie_c.jpg "Lettie with Patterns")
+![Lettie with her designs](images/NN_Lettie_c.jpg "Lettie with her designs")
