@@ -40,7 +40,7 @@
     <h3>Ribbonwork Basket</h3>
     <p>April 2011 Crafts 'n things</p>
   </div>
-  <img style="float:left; max-width: 25%;" src="<?php echo full_url('images/designs/Ribbon%20Work%20Basket%20c.jpg'); ?>">
+  <img style="float:left; max-width: 25%;" src="<?php echo full_url('images/designs/Ribbon%20Work%20Basket%20c.JPG'); ?>">
   <img style="float:left; max-width: 25%;" src="<?php echo full_url('images/designs/CraftNthings%20APR%202011%20cvr.jpg'); ?>">
 </li>
 

@@ -29,7 +29,6 @@ function echo_design_page($design_slug) {
   include_theme_file('page.php');  // show the page!
 }
 function echo_home_featured_design_article ($design_slug, $header = '') {
-  error_log('echo_home_featured_design_article');
   $design_atts = parse_json_file("designs/$design_slug/data");
   if (empty($design_atts)) return;
   if (!isset($design_atts['name'])) return;
@@ -73,6 +72,11 @@ function html_design_content($design_slug, $design_atts) {
   $html = ob_get_contents();
   ob_end_clean();
 
+  // if (!empty($design_atts['categories'])) {
+  //   $categories = $design_atts['categories'];
+  //   $html .= '<p>' . implode(', ', $categories) . '</p>';
+  // }
+
   return $html;
 }
 function url_design_image ($design_slug, $img_size = 'full') {
@@ -92,8 +96,9 @@ function arr_design_image_paths ($design_slug) {
   $id = $design['id'];
   $filename_root = "NN$id";
   return [
-    $filename_root . 'a',
+    $filename_root . 'ic',
     $filename_root . 'b',
+    $filename_root . 'a',
     $filename_root . 'b2',
     $filename_root,
     $filename_root . 'tn2',

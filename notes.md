@@ -1,69 +1,21 @@
 
+
+
+I added the images.
+
+Usually, before I add images to a website, I run them through a website called https://tinypng.com/, which ofter reduces the file size significantly. I did that for these images, and it made them 38% smaller. Those are the ones I uploaded to the site, but I can use the originals if you'd prefer.
+
+I also realized Bargello Trees and Whiskers weren't on Winter/Christmas, so I added them.
+
+
+
+
 todo (Feb 12, 2021):
-- Home Page: Add an Oldies but Goodies section at the bottom of the page, below Coming Soon.
 - Lettie's Place: Keep magazine design photos or have just a written list?
 - Check to make sure all photos can be clicked on for larger images.
 
-Just Released
-Flossy's Garden        
-
-(Use NN221 Flossy's Garden front-facing photo)
-
-Flossy is a cute gardener doll that doubles as a needlework tool holder. Her tie-on apron has pockets to hold scissors and other tools. At her feet are flowers, a watering can and several garden creatures. She holds a luscious looking strawberry pin keep and a handy gathering basket.
-
-The chart includes all stitching and finishing instructions to work the front and back of the 10-inch Flossy doll, as well as her accessories, including two tiny seed packet needle books. The design is stitched on 28 count Natural Cashel Linen using DMC and Gentle Art threads.
-
-Stitch Count: 171 wide  x 168 high and 169 wide x 150 high
-
-
-
-A Needle's Notion Favorite
-
-Needle's Notion Sampler    (photo NN125)
-
-This needlework tools sampler is a tribute to needleworkers everywhere. Stitched on 28 count Antique White Cashel Linen with DMC floss and Mill Hill beads. Design size: 9 x 7 inches. Also includes instructions for a 7 x 7 inch pin cushion.
-
-Stitch Count: 130 wide x 97 high
-
-
-
-(Don't include "best seller" or "oldies but goodies" headings this time)
-
-
-
-(At the bottom of the front page include:)
-
-Coming Soon: Birdhouse Box
-
-
-
-(Nathan - Flossy's Garden should be included in the Cross Stitch and Dimensional Designs and Dolls categories of Designs.  For the click-on second enlargement page of Flossy's Garden, include:)
-
-Flossy's Garden Stitching Supplies
-
-- 28 count Natural Cashel Linen (cut two 18 x 18-inch pieces and one 8 x 11-inch piece)
-
-- DMC floss: 301, 326 (6 skeins), 433, 519, 646, 648, 702, 741, 760, 938, 945, 3371, 3782 and White
-
-- Gentle Art threads: Gold Leaf (3 skeins), Green With Envy (2 skeins), Presidential Blue, and Ohio Lemon Pie       (5 skeins)
-
-- Mill Hill glass seed beads: Yellow Creme #02002
-
-Additional craft supplies for finishing Flossy's Garden are listed on the chart.
-
-
-
-Finishing Tips:
-
-Here are photos showing side and back views of Flossy, as well as her accessories.
-
-(Include a link with the above sentence to click to a third page with these three photos -  Flossy side, back and accessories photos.)
-
-
-
-(One other thing... A link is needed for an extra click-on side/back view photo for Sampler Santa and Mrs. Santa's Sampler. The photo appears on the old site, but not your new design.   Thanks!!   Mom )
-
-
+void (Feb 12, 2021):
+- Home Page: Add an Oldies but Goodies section at the bottom of the page, below Coming Soon.
 
 done (Feb 12, 2021):
 - Keep the flower icon on the tab (favicon)
@@ -95,6 +47,14 @@ done (Feb 12, 2021):
   Rabbits in the Clover (107) - X St.
   A Quilting Bee (105) - X St.
   - There should be finishing tips to click on for Jane & Cassandra (#214) and for Butterfly Meadow (#207)
+  - Just Released: Flossy's Garden    
+  - A Needle's Notion Favorite: Needle's Notion Sampler
+  - remove "best seller" and "oldies but goodies"
+  - Coming Soon: Birdhouse Box
+  - add Flossy's Garden to Cross Stitch and Dimensional Designs and Dolls
+  - Flossy's Garden: description-full
+  - Flossy's Garden: finishing tips: link to third page with Flossy side, back, and accessories photos
+  - add the butterfly meadow and cassandra images
 
 
 todos (old):

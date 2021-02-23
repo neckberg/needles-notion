@@ -9,3 +9,5 @@ Email me if you would like to be notified whenever my new designs are released, 
 Thank you,
 
 *Lettie Eckberg*
+
+![Lettie with Patterns](images/NN_Lettie_c.jpg "Lettie with Patterns")
