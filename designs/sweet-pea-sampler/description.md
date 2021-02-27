@@ -2,4 +2,4 @@ This enchanting design from The Needle's Notion is truly a sampler of peas. Ther
 
 Stitched on 32 count Raw Belfast Linen with DMC embroidery floss.
 
-Design Size: 12 ž x 9 ź inches
+Design Size: 12 3/4 x 9 1/4 inches
