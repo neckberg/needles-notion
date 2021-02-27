@@ -2,7 +2,7 @@ Sunshine, birds, flowers, soap bubbles and the companionship of a ginger cat mak
 
 The Wash Day band sampler is worked on 32 count Platinum Belfast Linen with DMC floss.
 
-Design size: 5 ½ x 15 inches.
+Design size: 5 1/2 x 15 inches.
 
 Wash Day is the first design in The Needle's Notion's popular days of the week series.
 

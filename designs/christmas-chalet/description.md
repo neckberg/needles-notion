@@ -2,6 +2,6 @@ Add a European touch to your Christmas with this enchanting scene of Santa on a 
 
 Both designs are worked with DMC and Gentle Art threads on 32 count Country French Café Mocha Linen from Wichelt Imports.
 
-Design sizes: 6 ¼ x 6 ¾ inches and 3 ½ x 4 ¼ inches
+Design sizes: 6 1/4 x 6 3/4 inches and 3 1/2 x 4 1/4 inches
 
 Finished sizes: 8 x 8 inches and 4 ¼ x 5 inches

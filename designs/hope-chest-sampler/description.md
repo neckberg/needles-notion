@@ -5,4 +5,4 @@ This happy design from The Needle's Notion features a tole painted coffee pot, a
 Hope Chest Sampler is worked on 32 count Country French Cafe Mocha Linen from Wichelt Imports using DMC and Gentle Art threads.
 
 Stitch Count: 164 wide x 144 high
-Design Size: 10 ¼ x 9 inches
+Design Size: 10 1/4 x 9 inches

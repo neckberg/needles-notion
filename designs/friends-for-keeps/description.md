@@ -4,4 +4,4 @@ In addition, an optional chart is included to stitch a friendship design with tw
 
 The designs are stitched with DMC and Weeks Dye Works threads on 32 count Country French Latte Linen from Wichelt Imports.
 
-Design sizes: 7 ½ x 10 ½ inches and 6 x 4 ½ inches
+Design sizes: 7 1/2 x 10 1/2 inches and 6 x 4 1/2 inches

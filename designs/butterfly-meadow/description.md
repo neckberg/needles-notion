@@ -6,9 +6,9 @@ Easy stitching and finishing instructions are included with the chart to create:
 
 All three designs are stitched with DMC and Weeks Dye Works threads on 32 count Lambswool Linen.
 
-Butterfly sampler design size: 8 ¼ x 4 ¼ inches
-Pin cushion finished size: 4 ½ x 4 ½ inches
-Needlebook finished size: 6 ¾ x 5 ¼ inches
+Butterfly sampler design size: 8 1/4 x 4 1/4 inches
+Pin cushion finished size: 4 1/2 x 4 1/2 inches
+Needlebook finished size: 6 3/4 x 5 1/4 inches
 
 ## Finishing Tips
 Here are finishing tips with photos for the [Pin Cushion](pin-cushion.jpg) and [Needlebook](needlebook.jpg).

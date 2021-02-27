@@ -5,4 +5,4 @@ This jolly stand-up Santa from The Needle's Notion also includes movable arms th
 Sampler Santa is worked on 28 count Amber/Toasted Almond Cashel Linen using DMC and Gentle Art threads.
 
 Stitch Count: 158 wide x 166 high
-Finished Size: 11 ½ inches tall
+Finished Size: 11 1/2 inches tall

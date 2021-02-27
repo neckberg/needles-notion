@@ -2,7 +2,7 @@ This pastoral sampler scene features a yellow brick house perched on top of an a
 
 Easy finishing instructions are also included for the AlphaBetsy pin cushion doll.
 
-AphaBetsy's House design size: 6 ¾ x 5 ½ inches
+AphaBetsy's House design size: 6 3/4 x 5 1/2 inches
 Pin Cushion Doll finished size: 5 inches tall
 
 Both designs are worked on 32 count Raw Belfast Linen using DMC and Gentle Art threads.

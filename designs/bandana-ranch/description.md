@@ -4,4 +4,4 @@ The designs are worked on 32 count Lambswool Linen using DMC and Gentle Art thre
 
 Ranch scene design size: 5 x 8 inches.
 
-Finished size of figures: 4 ½ inches tall.
+Finished size of figures: 4 1/2 inches tall.

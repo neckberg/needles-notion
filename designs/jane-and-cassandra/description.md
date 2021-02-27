@@ -6,7 +6,7 @@ Finishing instructions for the pin keep, needle book and sampler ribbon edgings 
 
 Sampler Stitch Count: 140 wide x 112 high.
 
-Finished size of pin keep and needle book: 5½ x 4½ inches and 3¼ x 3¼ inches.
+Finished size of pin keep and needle book: 5 1/2 x 4 1/2 inches and 3 1/4 x 3 1/4 inches.
 
 ## Finishing Tips
 Here are finishing tips for the [Sampler](sampler.jpg), the [Needle book](needle-book.jpg), and [Pin Keep Gathered Ribbon](ribbon.jpg).
