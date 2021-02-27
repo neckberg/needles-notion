@@ -10,4 +10,3 @@ Variations pearl cotton, and Kreinik
 metallic braids.
 
 Design size: 9 x 7 inches
-Suggested Retail price: $8.50

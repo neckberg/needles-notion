@@ -3,5 +3,3 @@ The Needle's Notion has created another charming design featuring a familiar nur
 The model is worked on hand dyed 28 count Spice Blend Celtic Linen from Stitches and Spice, using floss from DMC and The Gentle Art.
 
 Design size: 10 1/4 x 8 inches.
-
-This is the second design in the Sampler Shapes series. The first design, [Lucy Locket Sampler](SITE_ROOT:designs/lucy-locket-sampler), was released earlier this year.

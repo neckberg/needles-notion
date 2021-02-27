@@ -6,4 +6,3 @@ Worked on 28 count Opalescent Raw Cashel
 Linen with DMC floss.
 
 Design size: 8.5 x 7 inches
-Retail price: $7.00

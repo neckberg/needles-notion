@@ -7,6 +7,3 @@ Sew a Fine Seam is based on the old nursery rhyme about Curly Locks, and feature
 Worked on 28 count Sandstone/Tea Dyed Linen from Wichelt Imports using DMC and Weeks Dye Works embroidery floss.
 
 Design size: 8 1/2 x 15 inches.
-
-Other charts available in the Sampler Shapes series include:
-[Lucy Locket Sampler](SITE_ROOT:designs/lucy-locket-sampler), [Polly's Tea Kettle](SITE_ROOT:designs/pollys-tea-kettle), and [Bride's Boxes](SITE_ROOT:designs/brides-boxes).

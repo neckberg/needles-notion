@@ -1,4 +1,4 @@
-This industrious witch knits with her fiber of choice - thread from a spider web. Her helpful spider hangs out nearby. Stitched with hand-dyed threads from The Dye Is Cast and DMC floss on 28 count Confederate Grey Cashel Linen. Webs are stitched with black Kreinik braid. Knit Witch stitches up quickly!
+This industrious witch knits with her fiber of choice - thread from a spider web. Her helpful spider hangs out nearby. Stitched with hand-dyed threads from The Dye Is Cast and DMC floss on 28 count Mystic Grey Cashel Linen. Webs are stitched with black Kreinik braid. Knit Witch stitches up quickly!
 
 Stitch count: 77 wide x 88 high.
 

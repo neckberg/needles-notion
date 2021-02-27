@@ -3,5 +3,3 @@ Vintage Valentine cards featuring ice cream themes were the inspiration behind t
 Stitched with DMC floss on 28 count Antique White Cashel Linen.
 
 Design size: 8 3/4 x 7 inches
-
-Suggested Retail price: $8.00

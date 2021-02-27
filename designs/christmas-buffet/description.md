@@ -7,4 +7,3 @@ DMC floss, Kreinik metallic braids and
 Mill Hill beads.
 
 Design size: 4 x 4 inches
-Retail price: $7.00
