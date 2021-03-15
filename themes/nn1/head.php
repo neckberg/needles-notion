@@ -33,7 +33,7 @@ function nn1_page_keywords ($page_atts = []) {
 function nn1_page_image ($page_atts = []) {
   if (isset($page_atts['image-full-url'])) return $page_atts['image-full-url'];
   if (isset($page_atts['image'])) return full_url('images/' . $page_atts['image']);
-  if (defined(SITE_IMAGE)) return full_url(SITE_IMAGE);
+  if (defined('SITE_IMAGE')) return full_url(SITE_IMAGE);
   return '';
 }
 function nn1_add_styles ($page_atts = []) {
