@@ -24,6 +24,7 @@ function echo_design_page($design_slug) {
   global $page_atts;
   $design_atts = parse_json_file("designs/$design_slug/data");
   $page_atts['title'] = $design_atts['name'];
+  $page_atts['image-full-url'] = url_design_image($design_slug, 'thumb');
   $page_atts['styles'] = [];
   $page_atts['page_content'] = html_design_content($design_slug, $design_atts);
   include_theme_file('page.php');  // show the page!
