@@ -1,6 +1,8 @@
 
 
 
+
+
 I added the images.
 
 Usually, before I add images to a website, I run them through a website called https://tinypng.com/, which ofter reduces the file size significantly. I did that for these images, and it made them 38% smaller. Those are the ones I uploaded to the site, but I can use the originals if you'd prefer.
