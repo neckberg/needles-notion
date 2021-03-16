@@ -43,6 +43,9 @@ function requested_path($remove_slashes = false) {
   $url_pieces = path_pieces($url_path);
   return implode('/', $url_pieces);
 }
+function is_home() {
+  return (empty( requested_path(true) )) ? true : false;
+}
 function site_url() {
   $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
   $domainName = $_SERVER['HTTP_HOST'];

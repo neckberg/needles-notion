@@ -24,6 +24,7 @@ global $page_atts;
 <?php
 function nn1_page_title ($page_atts = []) {
   if (!isset($page_atts['title'])) return SITE_TITLE;
+  if (is_home()) return $page_atts['title'];
   return $page_atts['title'] . ' | ' . SITE_TITLE;
 }
 function nn1_page_keywords ($page_atts = []) {

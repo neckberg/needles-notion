@@ -13,7 +13,7 @@ echo html_page_title($page_atts);
 <?php
 function html_page_title ($page_atts) {
   if (!isset($page_atts['title'])) return '';
-  if (isset($page_atts['hide_title_on_page']) && $page_atts['hide_title_on_page'] == true) return '';
+  if (is_home()) return '';
   return '<h1>' . $page_atts['title'] . '</h1>';
 }
 function html_menu_item($caption, $href = '') {
