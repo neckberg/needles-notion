@@ -8,8 +8,8 @@ include_once(theme_path() . '/designs.php');
   <?php
   echo_home_featured_design_article('flossys-garden', 'Just Released');
   // echo_home_featured_design_article('needles-notion-sampler', "A Needle's Notion Favorite");
-  echo_home_featured_design_article('alphabetsys-house', "A Needle's Notion Best Seller");
-  echo_home_featured_design_article('berry-basket', "A Needle's Notion Favorite");
+  echo_home_featured_design_article('window-box-welcome', "A Needle's Notion Best Seller");
+  echo_home_featured_design_article('hope-chest-sampler', "A Needle's Notion Favorite");
 
   ?>
   <article class="w12 marg-bottom-10px">

@@ -9,6 +9,7 @@ Stitch Count: 171 wide x 168 high and 169 wide x 150 high
 - DMC floss: 301, 326 (6 skeins), 433, 519, 646, 648, 702, 741, 760, 938, 945, 3371, 3782 and White
 - Gentle Art threads: Gold Leaf (3 skeins), Green With Envy (2 skeins), Presidential Blue, and Ohio Lemon Pie (5 skeins)
 - Mill Hill glass seed beads: Yellow Creme #02002
+- Two 1/2-inch and four 1/4-inch yellow buttons with holes (If desired, white or vintage pearl buttons could be substituted.)
 
 Additional craft supplies for finishing Flossy's Garden are listed on the chart.
 
